@@ -2,4 +2,4 @@
 
 > **commercial development**
 
-Image stock service (nuxt 3, pinia, i18n, gtag)
+Stock image service (nuxt 3, pinia, i18n, gtag)
