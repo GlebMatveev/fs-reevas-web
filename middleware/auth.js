@@ -12,6 +12,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
     Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
   };
 
+  // Functions
   function showPopupSignIn() {
     popupStore.popupSignUp = false;
     popupStore.popupSignIn = true;

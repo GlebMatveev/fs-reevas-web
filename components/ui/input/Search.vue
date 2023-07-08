@@ -33,10 +33,8 @@ async function searchProducts() {
 }
 
 async function startSearch() {
-  // if (searchWord.value.length > 3) {
   await searchProducts();
   useStateSearchResultsVisibility.value = true;
-  // }
 }
 
 function stopSearch() {

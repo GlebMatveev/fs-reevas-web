@@ -19,9 +19,6 @@ const basicAuth = {
   Authorization: `Basic ${runtimeConfig.public.basicAuth}`,
 };
 
-// Router parameters
-const router = useRouter();
-
 // I18n
 const { t } = useI18n();
 const errorMsg = computed(() => {
